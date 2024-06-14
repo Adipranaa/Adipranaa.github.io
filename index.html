@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLANTIS</title>
+
+    <!-- link style -->
+    <link rel="stylesheet" href="./asset/style/style.css">
+</head>
+
+<body>
+    <!--link boxicon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--remix icons-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- header-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class="ri-leaf-line nav__logo-icon"></i> Plantis
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#faqs" class="nav__link">FAQs</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact Us</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-fill"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--main start-->
+    <main class="main">
+        <!--home-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <img src="https://github.com/bedimcode/responsive-plants-website/blob/main/assets/img/home.png?raw=true"
+                    alt="image" class="home__img">
+
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Plants Will Make <br> Your Life Better
+                    </h1>
+                    <p class="home__description">
+                        Create incridible plant design for your offices or apastaments. Add fresness to your new ideas.
+                    </p>
+                    <a href="#about" class="button button--flex">
+                        Explore <i class="ri-arrow-down-line button__icon"></i>
+                    </a>
+                </div>
+
+                <div class="home__social">
+                    <span class="home__social-follow">Follow Us</span>
+
+                    <div class="home__social-links">
+                        <a href="" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="" target="_blank" class="home__social-link">
+                            <i class="ri-whatsapp-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--about-->
+        <section class="about section container" id="about">
+            <div class="about__container gird">
+                <img src="https://github.com/bedimcode/responsive-plants-website/blob/main/assets/img/about.png?raw=true"
+                    alt="" class="about__img">
+
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                        Who we really are & <br> why choose us
+                    </h2>
+
+                    <p class="about__descriptions">
+                        We have over 4000+ unbiased reviews and our customers rust our plant process and delivery
+                        service every time
+                    </p>
+
+                    <div class="about__details">
+                        <p class="about__details-descriptions">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            We always deliver on time.
+                        </p>
+                        <p class="about__details-descriptions">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            We give you guides to protect and care for your plants.
+                        </p>
+                        <p class="about__details-descriptions">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            We always come over for a check-up after sale.
+                        </p>
+                        <p class="about__details-descriptions">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            100% money back guaranted.
+                        </p>
+                    </div>
+
+                    <a href="#products" class="button--link button--flex">
+                        Shop Now <i class="ri-arrow-down-line button__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--steps-->
+        <section class="steps section container">
+            <div class="steps__bg">
+                <h2 class="section__title-center steps__title">
+                    Steps to start your <br> plants off right
+                </h2>
+
+                <div class="steps__container grid">
+                    <div class="steps__card">
+                        <div class="steps__card-number">01</div>
+                        <h3 class="steps__card-title">Choose Plant</h3>
+                        <p class="steps__card-description">We have several varietes plants you can choose from.</p>
+                    </div>
+
+                    <div class="steps__card">
+                        <div class="steps__card-number">02</div>
+                        <h3 class="steps__card-title">Place an order</h3>
+                        <p class="steps__card-description">Once your order is set, we move to the next step which is the
+                            shipping.</p>
+                    </div>
+
+                    <div class="steps__card">
+                        <div class="steps__card-number">03</div>
+                        <h3 class="steps__card-title">Get plants delivered</h3>
+                        <p class="steps__card-description">Our delivery process is easy, you receive the point direct to
+                            your door.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--product-->
+        <section class="product section container" id="products">
+            <h2 class="section__title-center">
+                Check out our <br> products
+            </h2>
+
+            <p class="product__description">
+                Here are some selected plants from our showroom, all are in excellent shape and ha a long life span. Buy
+                and enjoy best quality.
+            </p>
+
+            <div class="product__container grid">
+                <article class="product__card">
+
+                    <img src="https://media.istockphoto.com/id/1050906798/vector/monstera-plant-in-pot-realistic-vector-illustration.jpg?s=612x612&w=0&k=20&c=1gmp79Mat9Ao6oXovAFtRi--dT1Eod2H-BhX3tsFV20="
+                        alt="" class="product__img">
+
+                    <h3 class="product__title">Monstera Plant</h3>
+                    <span class="product__price">$19.99</span>
+
+                    <botton class=" button--flex product__button">
+                        <i class="ri-shopping-bag-3-fill"></i>
+                    </botton>
+                </article>
+
+                <article class="product__card">
+
+                    <img src="https://img.buzzfeed.com/buzzfeed-static/static/2020-11/18/20/asset/b537877860a1/sub-buzz-13763-1605732336-25.jpg?downsize=900:*&output-format=auto&output-quality=auto"
+                        alt="" class="product__img">
+
+                    <h3 class="product__title">Aloe Vera Plant</h3>
+                    <span class="product__price">$29.99</span>
+
+                    <botton class=" button--flex product__button">
+                        <i class="ri-shopping-bag-3-fill"></i>
+                    </botton>
+                </article>
+
+                <article class="product__card">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1qwB7fUafgEI-MCT8qLCoO8iqIwtq5Wd5-SVyymrQhasqAQ60edFd4y6iVXHjauImsII&usqp=CAU"
+                        alt="" class="product__img">
+
+                    <h3 class="product__title">Crocodile Fern Plant</h3>
+                    <span class="product__price">$15.99</span>
+
+                    <botton class=" button--flex product__button">
+                        <i class="ri-shopping-bag-3-fill"></i>
+                    </botton>
+                </article>
+
+                <article class="product__card">
+
+                    <img src="https://www.cdiscount.com/pdt2/8/2/2/1/350x350/AUC4019515917822/rw/philodendron-pink-princess-ami-arbre-rose-noir.jpg"
+                        alt="" class="product__img">
+
+                    <h3 class="product__title">Philodendron Plant</h3>
+                    <span class="product__price">$50.89</span>
+
+                    <botton class=" button--flex product__button">
+                        <i class="ri-shopping-bag-3-fill"></i>
+                    </botton>
+                </article>
+
+                <article class="product__card">
+
+                    <img src="https://photo.floraccess.com/1p4hln7hondcmn9cah71b31v9kir9393rfjt7bkn_480.jpg" alt=""
+                        class="product__img">
+
+                    <h3 class="product__title">Aglaonema Plant</h3>
+                    <span class="product__price">$39.99</span>
+
+                    <botton class=" button--flex product__button">
+                        <i class="ri-shopping-bag-3-fill"></i>
+                    </botton>
+                </article>
+
+                <article class="product__card">
+
+                    <img src="https://www.maxifleur-artificial-plants.co.uk/media/catalog/product/cache/d6591b9a7cf5ce36d23e2503f5e72818/4/0/407404rdpp10_geranium_40_rood_m_5.jpg"
+                        alt="" class="product__img">
+
+                    <h3 class="product__title">Geranium Plant</h3>
+                    <span class="product__price">$140.90</span>
+
+                    <botton class=" button--flex product__button">
+                        <i class="ri-shopping-bag-3-fill"></i>
+                    </botton>
+                </article>
+
+            </div>
+        </section>
+
+        <!--question-->
+        <section class="questions section" id="faqs">
+            <h2 class="section__title-center question__title container">
+                Some common question <br> were often asked
+            </h2>
+
+            <div class="questions__container container grid">
+                <div class="questions__group">
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-fill questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                My flowers are falling off or dying?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Plants are easy way to add color energy and transform your space but which planet is for
+                                you. Choosing the right plant.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-fill questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                What causes leaves to become pale?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Plants are easy way to add color energy and transform your space but which planet is for
+                                you. Choosing the right plant.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-fill questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                What causes brown crispy leaves?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Plants are easy way to add color energy and transform your space but which planet is for
+                                you. Choosing the right plant.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="questions__group">
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-fill questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                How do i choose a plant?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Plants are easy way to add color energy and transform your space but which planet is for
+                                you. Choosing the right plant.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-fill questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                How do I change the pots?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Plants are easy way to add color energy and transform your space but which planet is for
+                                you. Choosing the right plant.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-fill questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Why are gnats flying around my plant?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Plants are easy way to add color energy and transform your space but which planet is for
+                                you. Choosing the right plant.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section container" id="contact">
+            <div class="contact__container grid">
+                <div class="contact__box">
+                    <h2 class="section__title">
+                        Reach out to us today <br> via any of the given <br> information
+                    </h2>
+
+                    <div class="contact__data">
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">Call us for instant support</h3>
+                            <span class="contact__description">
+                                <i class="ri-phone-line contact__icon"></i>
+                                085 738 101 548
+                            </span>
+                        </div>
+
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">Write us by mail</h3>
+                            <span class="contact__description">
+                                <i class="ri-mail-line contact__icon"></i>
+                                plantis@email.com
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <div class="contact__content">
+                            <input type="email" placeholder=" " class="contact__input">
+                            <label for="" class="contact__label">Email</label>
+                        </div>
+
+                        <div class="contact__content">
+                            <input type="text" placeholder=" " class="contact__input">
+                            <label for="" class="contact__label">Subject</label>
+                        </div>
+
+                        <div class="contact__content contact__area">
+                            <textarea name="message" placeholder=" " class="contact__input"></textarea>
+                            <label for="" class="contact__label">Message</label>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex">
+                        Send Message
+                        <i class="ri-arrow-right-line button__icons"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <i class="ri-leaf-line footer__logo-icon"></i> PLANTIS
+                </a>
+
+                <!--email-->
+                <h3 class="footer__title">
+                    Subscribe to our newsletter <br> to stay update
+                </h3>
+
+                <!--email start-->
+                <form action="" class="footer__subscribe" id="contact-form">
+                    <input type="email" name="user_email" placeholder="Enter your email" class="footer__input"
+                        id="contact-user">
+
+                    <button type="submit" class="button button--flex footer__button">
+                        Subscribe
+                        <i class="ri-arrow-right-line button__icons"></i>
+                    </button>
+                </form>
+
+                <p class="fotter__message" id="contact-message"></p>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Our Address</h3>
+
+                <ul class="footer__data">
+                    <li class="footer__information">Bali - Indonesia</li>
+                    <li class="footer__information">Sukawati - 43210</li>
+                    <li class="footer__information">085 - 193 - 832 - 927</li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Contact Us</h3>
+
+                <ul class="footer__data">
+                    <li class="footer__information">085 - 193 - 832 - 927</li>
+
+                    <div class="footer__social">
+                        <a href="" class="footer__social-link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="" class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="" class="footer__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    We accept all credit cards
+                </h3>
+
+                <div class="footer__cards">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2560px-Visa_Inc._logo.svg.png"
+                        alt="" class="footer__card">
+                    <img src="https://1000marcas.net/wp-content/uploads/2019/12/MasterCard-Logo-1.png" alt=""
+                        class="footer__card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/PayPal_logo.svg/1280px-PayPal_logo.svg.png"
+                        alt="" class="footer__card">
+                </div>
+            </div>
+        </div>
+
+        <p class="footer__copy">&#169; DekRis. All rigths reserved</p>
+    </footer>
+
+    <!--scroll up-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="./asset/javascript/java.js"></script>
+</body>
+
+</html>
